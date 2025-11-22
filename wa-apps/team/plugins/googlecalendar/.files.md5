@@ -1,0 +1,17 @@
+7bb088d39f073a7589f25ad5c1004e6b *img/googlecalendar16.png
+a1751e1f10a3b96b05d0401c97e72008 *lib/.htaccess
+1229ee05c7b44c9a3ac62b39b0f9c86f *lib/actions/teamGooglecalendarPluginBackendRenewToken.action.php
+6875cb384335d5b28e991bce29497383 *lib/classes/exception/teamGooglecalendarDriverException.class.php
+ff59e67ceafccacd32b80471c9726c18 *lib/classes/exception/teamGooglecalendarOauthException.class.php
+c2a42fad0c8d0e3a38c2fc5459c037a0 *lib/classes/teamGooglecalendarCurl.class.php
+01c0bcf1ac0a2f22fe52b44e6fab57eb *lib/classes/teamGooglecalendarDriver.class.php
+2f2023cfa25e5f170deb23973715f306 *lib/classes/teamGooglecalendarOauth.class.php
+ace5724c6ffda570a08df2be564d0f9a *lib/config/build.php
+0f07c3e107464408bd15e110a7482cc7 *lib/config/plugin.php
+358f49fb2e9262432cdd4320fc16ebba *lib/config/requirements.php
+9b4a579ce2491b43014761f7d73129f9 *lib/config/settings.php
+e6fa28d7cbbab2f648414b3efd19d3d9 *lib/teamGooglecalendar.plugin.php
+a1751e1f10a3b96b05d0401c97e72008 *locale/.htaccess
+39b6c18b81339c2e312cd04708ba7b69 *locale/ru_RU/LC_MESSAGES/team_googlecalendar.mo
+587457d49a4d8a5e455dc21e50e42576 *locale/ru_RU/LC_MESSAGES/team_googlecalendar.po
+1ffe2e0307ea339370cd6f23f6809d01 *templates/accountInfo.html

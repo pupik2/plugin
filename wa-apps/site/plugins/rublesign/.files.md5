@@ -1,0 +1,14 @@
+060e45d4bc19bfede73782d5e6f3e264 *css/rublesign.min.css
+dd6650eea800b7316830aceb31e2d04a *img/generated_ruble.png
+f0ae67f59f43d0c861746d8ec160b7e5 *img/rublesign.png
+c31aa11b68318d686bcfe7d5fe5307af *js/rublesign.js
+a1751e1f10a3b96b05d0401c97e72008 *lib/.htaccess
+a7b4886de0efe27c149530fd1b2b809f *lib/actions/siteRublesignPluginBackend.actions.php
+8c7fe8d5e844e06fa4c374c70b3c1dd3 *lib/actions/siteRublesignPluginSettings.action.php
+1a95107e4716cebd3019a641459a7652 *lib/config/build.php
+86b5fb86bc004dab51993d020c419ef0 *lib/config/plugin.php
+3809637b0b1cc80262a4e48beea3b25b *lib/config/uninstall.php
+62baa96fd9c0ba68b4d3884417afb8e5 *lib/siteRublesignPlugin.class.php
+a1751e1f10a3b96b05d0401c97e72008 *templates/.htaccess
+83fa486d26eb5b6a5898f689c41af12e *templates/actions-legacy/settings/Settings.html
+b526b746a9d82a75f57c87fa2f39672b *templates/actions/settings/Settings.html

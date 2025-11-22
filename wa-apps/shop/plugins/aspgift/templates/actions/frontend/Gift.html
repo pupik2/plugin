@@ -1,0 +1,18 @@
+<div class="gift-page" style="text-align:center; padding:40px;">
+    <h1>Получи свой подарок!</h1>
+
+    {if $gift}
+    <div class="gift-product" style="border:2px dashed #0b0; padding:20px; display:inline-block;">
+        {$wa->shop->productImgHtml($gift, '200')}
+        <h3>{$gift.name|escape}</h3>
+        <p>Цена: <strong>{$wa->shop->currency_html($gift.price)}</strong></p>
+        <a href="{$gift.frontend_url|escape}" class="button green">Перейти к товару</a>
+    </div>
+    {else}
+    <p>Список подарков пуст. Заполните ID в настройках плагина.</p>
+    {/if}
+
+    <p style="margin-top:16px;">
+        <a href="{$wa->getRouteUrl('shop/frontend/gift')}">Попробовать снова</a>
+    </p>
+</div>

@@ -1,0 +1,105 @@
+<link href="{$wa_real_app_static_url}plugins/rublesign/css/rublesign.min.css" rel="stylesheet" type="text/css">
+<link href="{$wa_url}wa-content/font/ruble/arial/fontface.css" rel="stylesheet" type="text/css">
+<h1>Символ рубля</h1>
+<div class="alert">
+    <div class="custom-px-6">
+        <div class="flexbox space-4">
+            <div><i class="fas fa-info-circle"></i></div>
+            <div> Проверьте отображение символа рубля. Если символ отображается, то отключите плагин.</div>
+        </div>
+        <ul class="thumbs custom-mt-12">
+            <li>
+                <div>
+                    <img src="{$generated_ruble}" class="generated_image" alt="Правильный вид знака рубля">
+                </div>
+                <div><i class="fas fa-check text-green"></i> Правильный вид знака рубля</div>
+            </li>
+            <li>
+                <div>
+                    <div class="ruble_sign">₽</div>
+                </div>
+                <div>Текущий вид</div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div>
+    {if $is_foreign_config}
+        <div class="alert warning">
+            <div class="flexbox space-4">
+                <div><i class="fas fa-exclamation-triangle fa-sm"></i></div>
+                <div class="message-text wide">
+                    Обнаружен конфигурационный файл для настройки валют — <code>wa-config/currency.php</code>. Удалите этот файл, чтобы использовать плагин.
+                </div>
+            </div>
+        </div>
+    {else}
+        <form id="s-settings-form" method="post" action="?module=rublesignPluginBackend&action=save">
+            {$wa->csrf()}
+            <div class="field-group">
+                <div class="field">
+                    <div class="name">Статус</div>
+                    <div class="value">
+                        <label>
+                            <span class="wa-radio">
+                                <input type="radio" name="status" value="0" id="enable" {if !$status}checked{/if}>
+                                <span></span>
+                            </span>
+                            Выключен
+                        </label>
+                        <div class="hint">Плагин не работает.</div>
+
+                        <label>
+                            <span class="wa-radio">
+                                <input type="radio" name="status" value="1" id="disable" {if $status}checked{/if}>
+                                <span></span>
+                            </span>
+                            Включен
+                        </label>
+                        <div class="hint">Символ рубля заменяется на выбранный вами знак.</div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="name">Выберите новый знак рубля</div>
+                    <div class="value">
+                        <label>
+                            <span class="wa-radio">
+                                <input type="radio" name="currency_sign" value="ruble" id="ruble-sign" {if $currency_sign == 'ruble'}checked{/if} {if !$status}disabled{/if}>
+                                <span></span>
+                            </span>
+                            <span class="ruble">Р</span>
+                        </label>
+                    </div>
+                    <div class="value">
+                        <label>
+                            <span class="wa-radio">
+                                <input type="radio" name="currency_sign" value="r" id="r-sign" {if $currency_sign == 'r'}checked{/if} {if !$status}disabled{/if}>
+                                <span></span>
+                            </span>
+                            Р
+                        </label>
+                    </div>
+                    <div class="value">
+                        <label>
+                            <span class="wa-radio">
+                                <input type="radio" name="currency_sign" value="rub" id="rub-sign" {if $currency_sign == 'rub'}checked{/if} {if !$status}disabled{/if}>
+                                <span></span>
+                            </span>
+                            руб.
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="s-form-buttons custom-mt-20">
+                <input type="submit" name="save" class="button green save-button" value="Сохранить">
+                <span id="save-loading" class="custom-ml-4" style="display: none;">
+                    <i class="fas fa-spinner fa-spin"></i>
+                </span>
+                <span id="save-status" class="custom-ml-4">
+                    <span class="success-save" style="display: none;"><i class="fas fa-check-circle"></i> Сохранено</span>
+                </span>
+            </div>
+        </form>
+    {/if}
+</div>
+<script src="{$wa_real_app_static_url}plugins/rublesign/js/rublesign.js"></script>

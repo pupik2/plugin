@@ -1,0 +1,27 @@
+<div class="dialog">
+    <div class="dialog-background"></div>
+    <div class="dialog-body">
+        <header class="dialog-header"><h1>
+            {if $feature == 'search'}
+                [`Files search`]
+            {elseif $feature == 'sort-mode'}
+                [`Sort order auto-remembering`]
+            {/if}
+        </h1></header>
+        <div class="dialog-content">
+            <div class="alert">
+                {if $feature == 'search'}
+                    [`You can <strong>search files</strong> by <em>name</em>, <em>contents</em> and selected <em>product</em> with the “Logs+” license.`]
+                    <a href="javascript: void(0);" class="view-premium-link" data-feature="search">[`Read more`] ›</a>
+                {elseif $feature == 'sort-mode'}
+                    [`The selected sort order can be <strong>auto-remembered</strong> with the “Logs+” license.`]
+                    <a href="javascript: void(0);" class="view-premium-link" data-feature="sort-mode">[`Read more`] ›</a>
+                {/if}
+            </div>
+        </div>
+        <footer class="dialog-footer">
+            <button class="js-close-dialog button">[`Close`]</button>
+            <button class="js-close-dialog-forever button light-gray">[`Do not show again`]</button>
+        </footer>
+    </div>
+</div>

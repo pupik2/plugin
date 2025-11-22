@@ -1,0 +1,17 @@
+d85878edb82033d9f561919d718f5b72 *img/office365_16.png
+a1751e1f10a3b96b05d0401c97e72008 *lib/.htaccess
+4f58c704835755793edb3efc104e13ee *lib/actions/teamOffice365PluginBackendRenewToken.action.php
+efddab727a05ad354bbf92ac12817dd7 *lib/classes/exception/teamOffice365Exception.class.php
+a899a14645e693a339bf2ecd2aebc446 *lib/classes/exception/teamOffice365OauthException.class.php
+3065f28f3b68af32d887e68d2a58280a *lib/classes/teamOffice365Curl.class.php
+01fc7e9f81d2b88fadb23dabe53fe7aa *lib/classes/teamOffice365Driver.class.php
+8b9f012619c7671387cb4c820bd86af3 *lib/classes/teamOffice365Oauth.class.php
+fe65ca53c51b072487f74d24e9c98222 *lib/config/build.php
+e4726d9b3c0e5b9561f21acd8dfabf7d *lib/config/plugin.php
+358f49fb2e9262432cdd4320fc16ebba *lib/config/requirements.php
+b4a1e627778fda50ba461e2115ba9b1b *lib/config/settings.php
+2c60ff414d35c2d229ca780422ad137b *lib/teamOffice365.plugin.php
+a1751e1f10a3b96b05d0401c97e72008 *locale/.htaccess
+469bb9f854e102a82123e1019c6099a6 *locale/ru_RU/LC_MESSAGES/team_office365.mo
+a13000d57ca2cddd7aa9a878a0f2d103 *locale/ru_RU/LC_MESSAGES/team_office365.po
+fd492baf6e7b83fbb421dcca4f135df7 *templates/accountInfo.html

@@ -1,0 +1,23 @@
+<div class="block">
+    <h1>ASPGift — настройки</h1>
+
+    <form id="plugins-settings-form" method="post" action="?plugin=aspgift&module=settings&action=save">
+        {$wa->csrf()}
+        <div class="fields form">
+            {foreach $controls as $name => $c}
+            <div class="field">
+                <div class="name">{$c.title|default:$name}</div>
+                <div class="value">
+                    {$c.control}
+                    {if !empty($c.description)}<div class="hint">{$c.description}</div>{/if}
+                </div>
+            </div>
+            {/foreach}
+            <div class="field">
+                <div class="value submit">
+                    <input type="submit" class="button green" value="Сохранить">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

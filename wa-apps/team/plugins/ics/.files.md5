@@ -1,0 +1,17 @@
+183b2cc6527237a0707d4cee65000537 *css/ics.css
+e26d12f7bea3a6825b12383e1329b11f *img/ics16.png
+6eb6624a7e3c7d276f626e62a0f8c765 *js/ics.js
+a1751e1f10a3b96b05d0401c97e72008 *lib/.htaccess
+7bad4e8c3adcb432b602ec0e19029990 *lib/actions/teamIcsPluginBackendCheckConnection.controller.php
+89a059ff5b5d600c33d59a9aa8f74ecc *lib/actions/teamIcsPluginBackendImport.controller.php
+16636b3f0cfb0053fc80ddff284cb80e *lib/actions/teamIcsPluginImportDialog.action.php
+a7b00512f8fc12755789aa4f0810c969 *lib/classes/teamIcsCalendarParser.class.php
+81c1b4707a5110af7b9af96f9d753885 *lib/config/build.php
+574c6313a588c069c3791d6340e5faad *lib/config/plugin.php
+1df8eb5407025ca6963f63c8b3500847 *lib/teamIcs.plugin.php
+a1751e1f10a3b96b05d0401c97e72008 *locale/.htaccess
+65578d43d8b216cfb0ecc24b6424fba7 *locale/ru_RU/LC_MESSAGES/team_ics.mo
+14ef54b8599e468a4f5f46cbe1779323 *locale/ru_RU/LC_MESSAGES/team_ics.po
+d1c2979be1c5cc472ef5379a2d5cbadd *templates/ImportDialog.html
+268a1aa66ac9f730fce316008648689b *templates/connect.html
+fc05a3d57f0910a20d28059cdc568c85 *templates/scheduleSettings.html

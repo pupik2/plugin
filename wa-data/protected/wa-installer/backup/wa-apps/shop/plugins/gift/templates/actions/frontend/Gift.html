@@ -1,0 +1,24 @@
+
+{* Это Smarty шаблон *}
+
+<div class="gift-page" style="text-align: center; padding: 50px;">
+    <h1>Получи свой подарок!</h1>
+
+    {if $gift}
+    <div class="gift-product" style="border: 2px dashed #f00; padding: 20px; display: inline-block;">
+        <h2>Случай выбрал:</h2>
+
+        {$wa->shop->productImgHtml($gift, '200', ['itemprop' => 'image'])}
+
+        <h3>{$gift.name|escape}</h3>
+        <p>Цена: <strong>{shop_currency_html($gift.price)}</strong></p>
+
+        <a href="../../../../../../../index.php" class="button green">Перейти к товару</a>
+    </div>
+
+    <br><br>
+    <a href="javascript:location.reload();">Попробовать снова</a>
+    {else}
+    <p>К сожалению, список подарков пока пуст. Зайдите в настройки плагина.</p>
+    {/if}
+</div>

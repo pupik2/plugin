@@ -1,0 +1,486 @@
+
+2025-11-21 09:38:13 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/contact/waContact.class.php(67): waModel->__construct()
+#3 wa-system/user/waUser.class.php(22): waContact->init()
+#4 wa-system/user/waAuthUser.class.php(32): waUser->init()
+#5 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#6 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#7 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#8 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#9 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#10 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2025-11-21 09:38:13 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/verification/models/waVerificationChannel.model.php(17): waModel->__construct()
+#3 wa-system/config/waAuthConfig.class.php(775): waVerificationChannelModel->__construct()
+#4 wa-system/config/waAuthConfig.class.php(63): waAuthConfig->getVerificationChannelModel()
+#5 wa-system/config/waBackendAuthConfig.class.php(36): waAuthConfig->ensureChannelExists()
+#6 wa-system/config/waBackendAuthConfig.class.php(24): waBackendAuthConfig->ensureVerificationChannelIdsConsistency()
+#7 wa-system/config/waAuthConfig.class.php(42): waBackendAuthConfig::getInstance()
+#8 wa-system/auth/waAuth.class.php(71): waAuthConfig::factory()
+#9 wa-system/waSystem.class.php(226): waAuth->__construct()
+#10 wa-system/waSystem.class.php(502): waSystem->getFactory()
+#11 wa-system/user/waAuthUser.class.php(45): waSystem->getAuth()
+#12 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#13 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#14 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#15 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#16 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#17 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#18 index.php(7): waSystem->dispatch()
+#19 {main}
+
+2025-11-21 09:38:14 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/contact/waContact.class.php(67): waModel->__construct()
+#3 wa-system/user/waUser.class.php(22): waContact->init()
+#4 wa-system/user/waAuthUser.class.php(32): waUser->init()
+#5 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#6 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#7 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#8 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#9 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#10 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2025-11-21 09:38:14 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/verification/models/waVerificationChannel.model.php(17): waModel->__construct()
+#3 wa-system/config/waAuthConfig.class.php(775): waVerificationChannelModel->__construct()
+#4 wa-system/config/waAuthConfig.class.php(63): waAuthConfig->getVerificationChannelModel()
+#5 wa-system/config/waBackendAuthConfig.class.php(36): waAuthConfig->ensureChannelExists()
+#6 wa-system/config/waBackendAuthConfig.class.php(24): waBackendAuthConfig->ensureVerificationChannelIdsConsistency()
+#7 wa-system/config/waAuthConfig.class.php(42): waBackendAuthConfig::getInstance()
+#8 wa-system/auth/waAuth.class.php(71): waAuthConfig::factory()
+#9 wa-system/waSystem.class.php(226): waAuth->__construct()
+#10 wa-system/waSystem.class.php(502): waSystem->getFactory()
+#11 wa-system/user/waAuthUser.class.php(45): waSystem->getAuth()
+#12 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#13 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#14 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#15 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#16 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#17 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#18 index.php(7): waSystem->dispatch()
+#19 {main}
+
+2025-11-21 09:38:39 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/contact/waContact.class.php(67): waModel->__construct()
+#3 wa-system/user/waUser.class.php(22): waContact->init()
+#4 wa-system/user/waAuthUser.class.php(32): waUser->init()
+#5 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#6 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#7 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#8 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#9 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#10 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2025-11-21 09:38:39 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/verification/models/waVerificationChannel.model.php(17): waModel->__construct()
+#3 wa-system/config/waAuthConfig.class.php(775): waVerificationChannelModel->__construct()
+#4 wa-system/config/waAuthConfig.class.php(63): waAuthConfig->getVerificationChannelModel()
+#5 wa-system/config/waBackendAuthConfig.class.php(36): waAuthConfig->ensureChannelExists()
+#6 wa-system/config/waBackendAuthConfig.class.php(24): waBackendAuthConfig->ensureVerificationChannelIdsConsistency()
+#7 wa-system/config/waAuthConfig.class.php(42): waBackendAuthConfig::getInstance()
+#8 wa-system/auth/waAuth.class.php(71): waAuthConfig::factory()
+#9 wa-system/waSystem.class.php(226): waAuth->__construct()
+#10 wa-system/waSystem.class.php(502): waSystem->getFactory()
+#11 wa-system/user/waAuthUser.class.php(45): waSystem->getAuth()
+#12 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#13 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#14 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#15 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#16 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#17 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#18 index.php(7): waSystem->dispatch()
+#19 {main}
+
+2025-11-21 09:43:02 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/contact/waContact.class.php(67): waModel->__construct()
+#3 wa-system/user/waUser.class.php(22): waContact->init()
+#4 wa-system/user/waAuthUser.class.php(32): waUser->init()
+#5 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#6 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#7 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#8 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#9 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#10 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2025-11-21 09:43:02 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/verification/models/waVerificationChannel.model.php(17): waModel->__construct()
+#3 wa-system/config/waAuthConfig.class.php(775): waVerificationChannelModel->__construct()
+#4 wa-system/config/waAuthConfig.class.php(63): waAuthConfig->getVerificationChannelModel()
+#5 wa-system/config/waBackendAuthConfig.class.php(36): waAuthConfig->ensureChannelExists()
+#6 wa-system/config/waBackendAuthConfig.class.php(24): waBackendAuthConfig->ensureVerificationChannelIdsConsistency()
+#7 wa-system/config/waAuthConfig.class.php(42): waBackendAuthConfig::getInstance()
+#8 wa-system/auth/waAuth.class.php(71): waAuthConfig::factory()
+#9 wa-system/waSystem.class.php(226): waAuth->__construct()
+#10 wa-system/waSystem.class.php(502): waSystem->getFactory()
+#11 wa-system/user/waAuthUser.class.php(45): waSystem->getAuth()
+#12 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#13 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#14 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#15 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#16 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#17 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#18 index.php(7): waSystem->dispatch()
+#19 {main}
+
+2025-11-21 09:43:03 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/contact/waContact.class.php(67): waModel->__construct()
+#3 wa-system/user/waUser.class.php(22): waContact->init()
+#4 wa-system/user/waAuthUser.class.php(32): waUser->init()
+#5 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#6 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#7 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#8 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#9 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#10 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2025-11-21 09:43:03 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/verification/models/waVerificationChannel.model.php(17): waModel->__construct()
+#3 wa-system/config/waAuthConfig.class.php(775): waVerificationChannelModel->__construct()
+#4 wa-system/config/waAuthConfig.class.php(63): waAuthConfig->getVerificationChannelModel()
+#5 wa-system/config/waBackendAuthConfig.class.php(36): waAuthConfig->ensureChannelExists()
+#6 wa-system/config/waBackendAuthConfig.class.php(24): waBackendAuthConfig->ensureVerificationChannelIdsConsistency()
+#7 wa-system/config/waAuthConfig.class.php(42): waBackendAuthConfig::getInstance()
+#8 wa-system/auth/waAuth.class.php(71): waAuthConfig::factory()
+#9 wa-system/waSystem.class.php(226): waAuth->__construct()
+#10 wa-system/waSystem.class.php(502): waSystem->getFactory()
+#11 wa-system/user/waAuthUser.class.php(45): waSystem->getAuth()
+#12 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#13 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#14 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#15 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#16 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#17 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#18 index.php(7): waSystem->dispatch()
+#19 {main}
+
+2025-11-21 09:50:42 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:50:53 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:50:54 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:50:54 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:50:55 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:50:55 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:50:55 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:50:55 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:50:56 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:50:56 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:51:31 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:51:32 
+Table 'web.guestbook' doesn't exist
+## wa-system/database/waDbMysqliAdapter.class.php(513)
+#0 wa-system/database/waDbMysqliAdapter.class.php(211): waDbMysqliAdapter->exception()
+#1 wa-system/database/waModel.class.php(211): waDbMysqliAdapter->schema()
+#2 wa-system/database/waModel.class.php(166): waModel->describe()
+#3 wa-system/database/waModel.class.php(96): waModel->getFields()
+#4 wa-system/database/waModel.class.php(79): waModel->getMetadata()
+#5 wa-apps/guestbook/lib/actions/guestbookBackend.actions.php(7): waModel->__construct()
+#6 wa-system/controller/waViewActions.class.php(81): guestbookBackendActions->defaultAction()
+#7 wa-system/controller/waViewActions.class.php(107): waViewActions->execute()
+#8 wa-system/controller/waFrontController.class.php(299): waViewActions->run()
+#9 wa-system/controller/waFrontController.class.php(197): waFrontController->runController()
+#10 wa-system/controller/waFrontController.class.php(84): waFrontController->execute()
+#11 wa-system/controller/waDispatch.class.php(173): waFrontController->dispatch()
+#12 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#13 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#14 index.php(7): waSystem->dispatch()
+#15 {main}
+
+2025-11-21 09:52:48 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/contact/waContact.class.php(67): waModel->__construct()
+#3 wa-system/user/waUser.class.php(22): waContact->init()
+#4 wa-system/user/waAuthUser.class.php(32): waUser->init()
+#5 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#6 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#7 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#8 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#9 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#10 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#11 index.php(7): waSystem->dispatch()
+#12 {main}
+
+2025-11-21 09:52:48 
+Unknown Database Connection default
+## wa-system/database/waDbConnector.class.php(62)
+#0 wa-system/database/waDbConnector.class.php(43): waDbConnector::getConfig()
+#1 wa-system/database/waModel.class.php(77): waDbConnector::getConnection()
+#2 wa-system/verification/models/waVerificationChannel.model.php(17): waModel->__construct()
+#3 wa-system/config/waAuthConfig.class.php(775): waVerificationChannelModel->__construct()
+#4 wa-system/config/waAuthConfig.class.php(63): waAuthConfig->getVerificationChannelModel()
+#5 wa-system/config/waBackendAuthConfig.class.php(36): waAuthConfig->ensureChannelExists()
+#6 wa-system/config/waBackendAuthConfig.class.php(24): waBackendAuthConfig->ensureVerificationChannelIdsConsistency()
+#7 wa-system/config/waAuthConfig.class.php(42): waBackendAuthConfig::getInstance()
+#8 wa-system/auth/waAuth.class.php(71): waAuthConfig::factory()
+#9 wa-system/waSystem.class.php(226): waAuth->__construct()
+#10 wa-system/waSystem.class.php(502): waSystem->getFactory()
+#11 wa-system/user/waAuthUser.class.php(45): waSystem->getAuth()
+#12 wa-system/user/waAuthUser.class.php(27): waAuthUser->init()
+#13 wa-system/waSystem.class.php(251): waAuthUser->__construct()
+#14 wa-system/waSystem.class.php(293): waSystem::getCommonFactory()
+#15 wa-system/controller/waDispatch.class.php(115): waSystem->getUser()
+#16 wa-system/controller/waDispatch.class.php(32): waDispatch->dispatchBackend()
+#17 wa-system/waSystem.class.php(614): waDispatch->dispatch()
+#18 index.php(7): waSystem->dispatch()
+#19 {main}

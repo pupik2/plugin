@@ -1,0 +1,12 @@
+371846fa39f00277584e066644c9c36d *img/robokassa.png
+f735f1342e31c40dd43eaa67495a9735 *img/robokassa16.png
+a1751e1f10a3b96b05d0401c97e72008 *lib/.htaccess
+e02b04492be5fdd093eef85f7484c9db *lib/config/build.php
+c93419f9716b577051d5b1eaa660107a *lib/config/guide.php
+0c2e0dfafdd0aab8ee374b983d20787f *lib/config/plugin.php
+c72b1066cc4eac0e1ae0d428941dd324 *lib/config/requirements.php
+a64b96d680caa1602d1453d093b59476 *lib/config/settings.php
+8d193210150f6b73ad4b799ac4371cc7 *lib/robokassaPayment.class.php
+a1751e1f10a3b96b05d0401c97e72008 *templates/.htaccess
+8077a0b2a320ace1ff97839204711a9b *templates/callback.html
+f01847641fea1466a61c082e49e79b5b *templates/payment.html
