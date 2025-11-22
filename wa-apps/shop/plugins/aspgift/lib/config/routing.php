@@ -1,4 +1,4 @@
 <?php
 return [
-    'aspgift/' => 'frontend/gift',
+    'gift/' => 'frontend/gift',
 ];

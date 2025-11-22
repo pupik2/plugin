@@ -1,0 +1,6 @@
+<div style="display:inline-block; border:2px dashed #0b0; padding:16px; text-align:center;">
+    <div>{$wa->shop->productImgHtml($gift, '200')}</div>
+    <div style="font-weight:bold; margin-top:8px;">{$gift.name|escape}</div>
+    <div style="margin:6px 0;">Цена: <strong>{$wa->shop->currency_html($gift.price)}</strong></div>
+    <a href="{$gift.frontend_url|escape}" class="button green">Перейти к товару</a>
+</div>

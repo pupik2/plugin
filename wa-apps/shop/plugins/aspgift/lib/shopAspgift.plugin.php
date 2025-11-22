@@ -1,5 +1,4 @@
 <?php
-
 class shopAspgiftPlugin extends shopPlugin
 {
     public function frontendNav($params)

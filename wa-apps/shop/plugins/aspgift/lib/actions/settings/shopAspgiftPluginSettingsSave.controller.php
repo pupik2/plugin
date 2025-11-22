@@ -4,16 +4,14 @@ class shopAspgiftPluginSettingsSaveController extends waJsonController
 {
     public function execute()
     {
-        $plugin   = wa('shop')->getPlugin('aspgift');
-        $settings = waRequest::post('settings', [], waRequest::TYPE_ARRAY);
+        $plugin = wa('shop')->getPlugin('aspgift');
+        $post   = waRequest::post('settings', [], waRequest::TYPE_ARRAY);
 
-        foreach ($settings as $k => $v) {
-            if (is_string($v)) {
-                $settings[$k] = trim($v);
-            }
-        }
+        $ids = array_unique(array_filter(array_map('intval',
+            preg_split('/[^\d]+/', (string)($post['product_ids'] ?? ''))
+        )));
+        $plugin->saveSettings(['product_ids' => implode(',', $ids)]);
 
-        $plugin->saveSettings($settings);
         $this->response = ['status' => 'ok'];
     }
 }
